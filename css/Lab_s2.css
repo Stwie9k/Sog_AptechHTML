@@ -1,0 +1,17 @@
+.labs2{
+    ;
+}
+.head{
+    display: flex;
+}
+.streat{
+    margin-left: 250px;
+}
+
+p1{
+    color: #e117f3;
+}
+hr{
+    border:  #e117f3;
+    border-bottom: 1px solid  #e117f3;
+}
