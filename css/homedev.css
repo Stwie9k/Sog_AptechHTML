@@ -1,0 +1,26 @@
+body{
+    background-image: url("../images/tHAO1.JPG");/* lay anh lam hinh nen *//* nguyen ly cay thu muc : (con kien leo cay)  ../ di len ; thu muc/ di sang ; ten tep / di xuong..*/
+    background-size: contain;/* cover*/
+    background-repeat: repeat;/* khong lap*/
+}
+
+p{
+    color: rgb(0,100,500);/* mau chu */
+    font-size: 20px; /* cu chu*/
+    font-family: 'Roboto', sans-serif; /* kieu  chu */
+    font-weight: bold; /* do dam nhat */
+    text-decoration: none;/* danh chan , hay gạch giua.....*/
+    text-transform: none; /* viet hoa , viet thuong */
+    line-height:1.5; /* do cao cua dong*/
+    text-indent: 20px;/* lui vao dau dong*/
+    font-style: normal;/* kieu chu */
+    text-align: justify;/* can chinh  chu  */
+    background-color: aqua;/* mau nen */
+
+}
+h1{
+    color:#aaddcd;
+}
+a{
+    text-decoration: none;
+}
