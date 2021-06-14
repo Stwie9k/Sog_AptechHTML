@@ -1,0 +1,54 @@
+
+body{
+    background: #d4d4d4;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    background: white;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.product{
+    width: 300px;
+    height: 540px;
+    float: left;
+    margin: 30px 10px 10px;
+    border: 1px solid silver;
+    background: white;
+
+}
+img{
+    max-width: 100%;
+}
+button{
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+}
+.fashion{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{  font-size: 20px;
+     text-transform: uppercase;
+     padding-top: 20px;
+    padding-left: 20px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+
+}
