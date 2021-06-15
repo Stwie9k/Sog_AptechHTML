@@ -1,0 +1,39 @@
+div{
+    width: 400px;
+    height: 400px;
+    float: left ;    /* don ve 1 ben left or right */
+    border: 1px solid red;/* vien */
+    /*border-top;*/
+    /*border-right;*/
+    /*border-bottom;*/
+    /*border-left;*/
+
+    margin: 10px;/* khoang cach giua cac khoi */
+    /*margin-top;*/
+    /*margin-right;*/
+    /*margin-bottom;*/
+    /*margin-left;*/
+    padding: 10px; /* khoang cach giua duong vien va noi dung ben trong*/
+     /* padding-top;    */
+     /* padding-right;    */
+     /* padding-bottom;    */
+     /* padding-left;    */
+    /*box-shadow: 0 0 15px yellow;!* bong'*!*/
+
+}
+#box-1{
+    box-shadow: 0 0 15px yellow;
+    border-radius: 10px; /* mem mai vien*/
+    opacity: 0.5;/* mo di*/
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.box-1{
+    opacity: 0.5;/* mo di*/
+}
+.box-1:hover{
+    opacity: 1;
+}
