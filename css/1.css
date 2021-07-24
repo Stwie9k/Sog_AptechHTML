@@ -1,0 +1,30 @@
+* {box-sizing: border-box}
+
+
+.title {
+    color: red;
+}
+.title:hover {
+    color: green;
+}
+.form-name {
+    position: absolute;
+    left: 41%;
+    top: 48px;
+    background: white;
+    color: blue;
+    padding: 0px 7px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-container {
+    width: 427px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 22px 32px;
+    margin-top: 27px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}

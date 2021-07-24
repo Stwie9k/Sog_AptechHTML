@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="css/2.css" type="text/css">
+</head>
+
+<body>
+<div class="container relative">
+  <h2 class="title text-center">MATRIMONIAL SURVEY</h2>
+  <div class="form-name">
+    Survey Questions
+  </div>
+  <div class="form-container">
+    <form id="myForm2" onclick="resetForm2()">
+      <div class="form-group">
+        <label for="fname">How offten you are surfing this site:</label>
+        <div>
+          <input type="radio">
+          <label>Daily</label>
+          <input type="radio">
+          <label>Weekly</label>
+          <input type="radio">
+          <label>Monthly</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="faddress">Which matrimonial site you visit mostly:</label>
+        <input type="text" id="faddress" name="faddress">
+      </div>
+      <div class="form-group">
+        <label for="fname">How offten you are surfing this site:</label>
+        <div>
+          <input type="radio">
+          <label>Home</label>
+          <input type="radio">
+          <label>Office</label>
+          <input type="radio">
+          <label>Cyber Cafe</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fname">Age you feel services provided by us?</label>
+        <div>
+          <input type="radio">
+          <label>Fair</label>
+          <input type="radio">
+          <label>Good</label>
+          <input type="radio">
+          <label>Very Good</label>
+          <input type="radio">
+          <label>Excellent</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fname">Which type of member you are?</label>
+        <div>
+          <input type="radio">
+          <label>Free</label>
+          <input type="radio">
+          <label>Premium</label>
+          <input type="radio">
+          <label>Gold</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fname">If you are a free member, would like to take paid service?</label>
+        <div>
+          <input type="radio">
+          <label>Yes</label>
+          <input type="radio">
+          <label>No</label>
+          <input type="radio">
+          <label>I'll think</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fname">Rate this web site:</label>
+        <div>
+          <inputtype="radio">
+          <label> Below</label>
+          <input type="radio">
+          <label> 5 TO 100</label>
+          <input type="radio">
+          <label> Very Good</label>
+          <input type="radio">
+          <label> More than 10</label>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Submit
+        </button>
+        <button class="btn btn-warning">Reset</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cảm ơn
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+</script>
+<script>
+  function resetForm2() {
+    document.getElementById("myForm2").reset();
+  }
+</script>
+</html>
